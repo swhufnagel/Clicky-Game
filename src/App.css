@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+#title {
+  position: relative;
+  top: 140px;
+  left: 80px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+  width: 100px;
+  pointer-events: none;
+  top: 10%;
+}
+#gameArea {
+  background: url("https://taukeereditz.com/wp-content/uploads/2018/12/x-men-background.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 760px;
+}
+#App-title {
+  position: relative;
+  top: 20%;
+}
+.App-header {
+  background-color: purple;
+  background: url("https://i.ytimg.com/vi/IcsbBiIMqYw/maxresdefault.jpg")
+    no-repeat;
+  background-size: 100%;
+  background-position: 0px 0px 20px 0px;
+  min-height: 438px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

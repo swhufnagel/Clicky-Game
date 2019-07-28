@@ -1,0 +1,27 @@
+.white {
+  color: white;
+}
+#score {
+  float: left;
+  position: relative;
+  left: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 2%;
+}
+#highScore {
+  float: left;
+  position: relative;
+  left: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 2%;
+  border-left: 1px solid white;
+}
+.scoreContainer {
+  border: 1px solid white;
+  margin-right: 5%;
+}
+.answer {
+  color: white;
+}
