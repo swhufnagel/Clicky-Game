@@ -21,7 +21,6 @@ class App extends Component {
     answer: ""
   }
   componentDidUpdate() {
-    shuffle(this.state.friends);
   }
   checkforHighScore = () => {
     console.log("checking high score");
@@ -52,6 +51,7 @@ class App extends Component {
   }
   registerClick = id => {
     console.log("id: ", id);
+    shuffle(this.state.friends);
     this.checkforDupes(id);
   }
   registerHover = id => {
