@@ -3,7 +3,7 @@
 
 A memory game built in React.js
 
-<strong> Play here <strong>
+<strong> Play here </strong>
 
 [Click to play](https://swhufnagel.github.io/Clicky-Game/)
 
